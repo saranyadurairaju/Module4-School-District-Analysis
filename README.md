@@ -68,8 +68,10 @@ Herewith we are comparing the Original value with the New value which we got wit
 #### The District Summary
 
 Original Value
+
 ![image](https://user-images.githubusercontent.com/85472349/125211129-cdf8a500-e269-11eb-9cf3-c406dc47b36d.png)
 
 New Value
+
 ![image](https://user-images.githubusercontent.com/85472349/125211151-04cebb00-e26a-11eb-912a-0e395ef6e641.png)
 
