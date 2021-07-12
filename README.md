@@ -39,23 +39,19 @@ As there are some academic dishonesty found with 9th graders of Thomas High Scho
 
 * We are finding the School Summary with the original school counts and then with the modified school counts (Excluding 9th graders of Thomas High school) to check the impact.
 
-Get the number of 10th-12th graders from Thomas High School (THS).
-school_data_complete_ths_df = school_data_complete_df[(school_data_complete_df["school_name"] == "Thomas High School") & 
-                    ((school_data_complete_df["grade"] != "9th"))]
-
-student_complete_count_ths = school_data_complete_ths_df["school_name"].value_counts()
-
-school_complete_count_ths = student_count_ths + student_complete_count_ths
-
+![image](https://user-images.githubusercontent.com/85472349/125236251-43d03100-e2a9-11eb-84a9-84b90df33688.png)
 	
 * With the new count of Thomas High School, we need to find the Math, Reading and over-all percentages of it for the School Summary Analysis.
 
-Thomas High School	Charter	1635	$1,043,130.00	$638.00	83.350937	83.896082	66.911315	69.663609	65.076453
+Impacted values due to the Full school count
 
-Thomas High School	Charter	1635	$1,043,130.00	$638.00	83.350937	83.896082	93.185690	97.018739	90.630324
+![image](https://user-images.githubusercontent.com/85472349/125236484-ab867c00-e2a9-11eb-8f70-f47453f718c6.png)
 
-* Then finally we need to find the High & Low Performing Schools, Math & Reading Scores by Grade, Scores by School Spending, School Size & School Type. 
+Corrected values with the updated number of students (10th, 11th, 12th)
 
+![image](https://user-images.githubusercontent.com/85472349/125236514-bf31e280-e2a9-11eb-9578-27c849772889.png)
+
+* Finally we need to find the High & Low Performing Schools, Math & Reading Scores by Grade, Scores by School Spending, School Size & School Type with the updated DataFrame. 
 
 ## Results
 
@@ -125,3 +121,21 @@ The bins have been created and Valued based on many criteria like School Spendin
 #### Scores by School Type
 
 ![image](https://user-images.githubusercontent.com/85472349/125235157-9f012400-e2a7-11eb-9828-aa8f2f8c07e6.png)
+
+
+## Summary
+
+* There is a very minimal change in Passing Percentages in the district summary report.
+
+* Same way in the School Summary report, the values are impacted little bit.
+
+* Math and Reading scores by Grade is replaced with NaN for Thomas High School.
+
+* After the changes in Data, there is no impact in Top Performing schools and Score Values. 
+
+* But we need to find the right number of Students during every Value calculation is important. 
+
+_Maria and her team can provide a nice and perfect **City School Analysis Report** with Clean Data to the School Board. Hurry!!!_
+
+
+
